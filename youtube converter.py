@@ -4,7 +4,7 @@ from tkinter import Tk, Canvas, Entry, Button, PhotoImage, messagebox
 from pytube import YouTube
 
 OUTPUT_PATH = Path(__file__).parent
-ASSETS_PATH = OUTPUT_PATH / Path(r"C:\Users\khel\OneDrive\Desktop\Programs\Python\build\assets\frame0")
+ASSETS_PATH = OUTPUT_PATH / Path(r"Enter the path for assests")
 
 def relative_to_assets(path: str) -> Path:
     return ASSETS_PATH / Path(path)
